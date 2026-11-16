@@ -1,0 +1,299 @@
+{
+  "branch_info": {
+    "branch_id": "main",
+    "name": "main",
+    "parent_branch_id": null,
+    "fork_lamport_tick": null,
+    "locked_prng_seed": 1337
+  },
+  "nodes": [
+    {
+      "node_id": "node-main-0",
+      "branch_id": "main",
+      "lamport_tick": 0,
+      "agent_id": "agent-1",
+      "state_hash": "a1f3c9",
+      "token_cost": 120,
+      "is_cached_cow": true,
+      "gate_passed": true
+    },
+    {
+      "node_id": "node-main-1",
+      "branch_id": "main",
+      "lamport_tick": 1,
+      "agent_id": "agent-1",
+      "state_hash": "b2e4d0",
+      "token_cost": 140,
+      "is_cached_cow": true,
+      "gate_passed": true
+    },
+    {
+      "node_id": "node-main-2",
+      "branch_id": "main",
+      "lamport_tick": 2,
+      "agent_id": "agent-1",
+      "state_hash": "c3d5e1",
+      "token_cost": 160,
+      "is_cached_cow": true,
+      "gate_passed": true
+    },
+    {
+      "node_id": "node-main-3",
+      "branch_id": "main",
+      "lamport_tick": 3,
+      "agent_id": "agent-1",
+      "state_hash": "d4c6f2",
+      "token_cost": 180,
+      "is_cached_cow": true,
+      "gate_passed": true
+    },
+    {
+      "node_id": "node-main-4",
+      "branch_id": "main",
+      "lamport_tick": 4,
+      "agent_id": "agent-1",
+      "state_hash": "e5b7a3",
+      "token_cost": 210,
+      "is_cached_cow": true,
+      "gate_passed": true
+    },
+    {
+      "node_id": "node-main-5",
+      "branch_id": "main",
+      "lamport_tick": 5,
+      "agent_id": "agent-1",
+      "state_hash": "f6a8b4",
+      "token_cost": 195,
+      "is_cached_cow": true,
+      "gate_passed": true
+    },
+    {
+      "node_id": "node-main-6",
+      "branch_id": "main",
+      "lamport_tick": 6,
+      "agent_id": "agent-1",
+      "state_hash": "0799c5",
+      "token_cost": 230,
+      "is_cached_cow": false,
+      "gate_passed": true
+    },
+    {
+      "node_id": "node-main-7",
+      "branch_id": "main",
+      "lamport_tick": 7,
+      "agent_id": "agent-1",
+      "state_hash": "188ad6",
+      "token_cost": 250,
+      "is_cached_cow": false,
+      "gate_passed": true
+    },
+    {
+      "node_id": "node-main-8",
+      "branch_id": "main",
+      "lamport_tick": 8,
+      "agent_id": "agent-1",
+      "state_hash": "297be7",
+      "token_cost": 310,
+      "is_cached_cow": false,
+      "gate_passed": false
+    },
+    {
+      "node_id": "node-main-9",
+      "branch_id": "main",
+      "lamport_tick": 9,
+      "agent_id": "agent-1",
+      "state_hash": "3a6cf8",
+      "token_cost": 275,
+      "is_cached_cow": false,
+      "gate_passed": true
+    },
+    {
+      "node_id": "node-main-10",
+      "branch_id": "main",
+      "lamport_tick": 10,
+      "agent_id": "agent-1",
+      "state_hash": "4b5d09",
+      "token_cost": 290,
+      "is_cached_cow": false,
+      "gate_passed": true
+    },
+    {
+      "node_id": "node-main-11",
+      "branch_id": "main",
+      "lamport_tick": 11,
+      "agent_id": "agent-1",
+      "state_hash": "5c4e1a",
+      "token_cost": 320,
+      "is_cached_cow": false,
+      "gate_passed": true
+    },
+    {
+      "node_id": "node-fork-6",
+      "branch_id": "fork-1",
+      "lamport_tick": 6,
+      "agent_id": "agent-2",
+      "state_hash": "6d3f2b",
+      "token_cost": 205,
+      "is_cached_cow": false,
+      "gate_passed": true
+    },
+    {
+      "node_id": "node-fork-7",
+      "branch_id": "fork-1",
+      "lamport_tick": 7,
+      "agent_id": "agent-2",
+      "state_hash": "7e203c",
+      "token_cost": 215,
+      "is_cached_cow": false,
+      "gate_passed": true
+    },
+    {
+      "node_id": "node-fork-8",
+      "branch_id": "fork-1",
+      "lamport_tick": 8,
+      "agent_id": "agent-2",
+      "state_hash": "8f114d",
+      "token_cost": 240,
+      "is_cached_cow": false,
+      "gate_passed": true
+    },
+    {
+      "node_id": "node-fork-9",
+      "branch_id": "fork-1",
+      "lamport_tick": 9,
+      "agent_id": "agent-2",
+      "state_hash": "90025e",
+      "token_cost": 260,
+      "is_cached_cow": false,
+      "gate_passed": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-main-0-1",
+      "source": "node-main-0",
+      "target": "node-main-1"
+    },
+    {
+      "id": "edge-main-1-2",
+      "source": "node-main-1",
+      "target": "node-main-2"
+    },
+    {
+      "id": "edge-main-2-3",
+      "source": "node-main-2",
+      "target": "node-main-3"
+    },
+    {
+      "id": "edge-main-3-4",
+      "source": "node-main-3",
+      "target": "node-main-4"
+    },
+    {
+      "id": "edge-main-4-5",
+      "source": "node-main-4",
+      "target": "node-main-5"
+    },
+    {
+      "id": "edge-main-5-6",
+      "source": "node-main-5",
+      "target": "node-main-6"
+    },
+    {
+      "id": "edge-main-6-7",
+      "source": "node-main-6",
+      "target": "node-main-7"
+    },
+    {
+      "id": "edge-main-7-8",
+      "source": "node-main-7",
+      "target": "node-main-8"
+    },
+    {
+      "id": "edge-main-8-9",
+      "source": "node-main-8",
+      "target": "node-main-9"
+    },
+    {
+      "id": "edge-main-9-10",
+      "source": "node-main-9",
+      "target": "node-main-10"
+    },
+    {
+      "id": "edge-main-10-11",
+      "source": "node-main-10",
+      "target": "node-main-11"
+    },
+    {
+      "id": "edge-fork-5-6",
+      "source": "node-main-5",
+      "target": "node-fork-6"
+    },
+    {
+      "id": "edge-fork-6-7",
+      "source": "node-fork-6",
+      "target": "node-fork-7"
+    },
+    {
+      "id": "edge-fork-7-8",
+      "source": "node-fork-7",
+      "target": "node-fork-8"
+    },
+    {
+      "id": "edge-fork-8-9",
+      "source": "node-fork-8",
+      "target": "node-fork-9"
+    }
+  ],
+  "snapshots_by_tick": {
+    "0": {
+      "state_hash": "a1f3c9",
+      "llm_output": "Initialized project environment"
+    },
+    "1": {
+      "state_hash": "b2e4d0",
+      "llm_output": "Parsed project specifications and context"
+    },
+    "2": {
+      "state_hash": "c3d5e1",
+      "llm_output": "Scanned file hierarchy and indexed symbols"
+    },
+    "3": {
+      "state_hash": "d4c6f2",
+      "llm_output": "Generated preliminary AST dependency graph"
+    },
+    "4": {
+      "state_hash": "e5b7a3",
+      "llm_output": "Applied AST transformation patches"
+    },
+    "5": {
+      "state_hash": "f6a8b4",
+      "llm_output": "Checkpoint before branching execution paths"
+    },
+    "6": {
+      "state_hash": "0799c5",
+      "llm_output": "Executing primary optimization strategy"
+    },
+    "7": {
+      "state_hash": "188ad6",
+      "llm_output": "Refactoring module imports and interfaces"
+    },
+    "8": {
+      "state_hash": "297be7",
+      "llm_output": "AST guardrail failed: file delta exceeded safety threshold"
+    },
+    "9": {
+      "state_hash": "3a6cf8",
+      "llm_output": "Recovered from rollback, continuing compilation"
+    },
+    "10": {
+      "state_hash": "4b5d09",
+      "llm_output": "Validated test coverage across unit suites"
+    },
+    "11": {
+      "state_hash": "5c4e1a",
+      "llm_output": "Final build verified and assets finalized"
+    }
+  }
+}
+
